@@ -8,11 +8,11 @@
     <body>
         <nav class="navbar navbar-default">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Appointment reminders</a>
+                <a class="navbar-brand" href="#">Next Appointments</a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ route('appointment.index') }}">Index</a></li>
+                    <li><a href="{{ route('appointment.index') }}">Home</a></li>
                     <li><a href="{{ route('appointment.create') }}">New appointment</a></li>
                 </ul>
             </div>
@@ -28,6 +28,6 @@
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.14.30/js/bootstrap-datetimepicker.min.js"></script>
-        @yield('scripts')
+        @milos('scripts')
     </body>
 </html>
